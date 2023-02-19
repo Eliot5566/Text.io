@@ -15,7 +15,7 @@ function sayHello () {
     .getElementById("content")
     .innerHTML = message;
 
-  if (name === "阿土") {
+  if (name === "冠佑") {
     var title = 
       document
         .querySelector("#title")
@@ -24,6 +24,8 @@ function sayHello () {
     document
         .querySelector("h1")
         .textContent = title;
+
   }
 }
+
 
